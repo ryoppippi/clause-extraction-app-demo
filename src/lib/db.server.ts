@@ -18,6 +18,9 @@ export class DB {
 	async load(name: string): Promise<File> {
 		const data = await fs.readFile(name);
 
+		// @ts-expect-error - File constructor is not available in nodejs
 		return new File([data.buffer], name);
 	}
 }
+
+export const db = new DB();
