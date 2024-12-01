@@ -28,3 +28,11 @@ vim .env # edit the .env file
 pnpm run build
 pnpm preview
 ```
+
+# Limitations
+
+- This app stores pdf files in a local directory. If I have time, I'd like to make it store in db or cloud storage
+- The app is not optimized for mobile devices
+- I use Gemini as a AI model because it's free to use, enable to deal with pdf files. I think claude models are better for this task.
+- I need to use JSON mode to extract information.
+- I need to optimise the prompt for better results.
