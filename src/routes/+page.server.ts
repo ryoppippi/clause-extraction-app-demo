@@ -1,6 +1,7 @@
 import { randomUUID } from 'node:crypto';
 import { db } from '$lib/db.server.js';
-import { fail, message, superValidate } from 'sveltekit-superforms';
+import { redirect } from '@sveltejs/kit';
+import { fail, superValidate } from 'sveltekit-superforms';
 import { zod } from 'sveltekit-superforms/adapters';
 import { z } from 'zod';
 
@@ -17,6 +18,7 @@ export async function load() {
 
 export const actions = {
 	default: async ({ request }) => {
+		// eslint-disable-next-line ts/no-unsafe-argument
 		const form = await superValidate(request, zod(schema));
 
 		if (!form.valid) {
@@ -29,6 +31,6 @@ export const actions = {
 
 		await db.save(`pdfs/${uuid}.pdf`, pdf);
 
-		return message(form, 'You have uploaded a valid file!');
+		return redirect(301, `/pdf/${uuid}`);
 	},
 };
