@@ -11,6 +11,7 @@ const google = createGoogleGenerativeAI({
 async function extractInfoFromPDF(id: string) {
 	const pdf = await db.load(`pdfs/${id}.pdf`);
 
+	// TODO: use json mode and validate with zod or typia
 	const result = await generateText({
 		model: google('gemini-1.5-flash'),
 		messages: [
