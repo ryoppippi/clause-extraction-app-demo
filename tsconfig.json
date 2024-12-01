@@ -3,6 +3,9 @@
 	"compilerOptions": {
 		"moduleResolution": "bundler",
 		"resolveJsonModule": true,
+		"types": [
+			"vitest/importMeta"
+		],
 		"allowJs": true,
 		"checkJs": true,
 		"strict": true,
