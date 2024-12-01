@@ -21,3 +21,5 @@ export class DB {
 		return new File([data.buffer], name);
 	}
 }
+
+export const db = new DB();

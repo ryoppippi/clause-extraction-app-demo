@@ -1,4 +1,5 @@
-// NOTE: Import fail from Superforms, not from @sveltejs/kit!
+import { randomUUID } from 'node:crypto';
+import { db } from '$lib/db.server.js';
 import { fail, message, superValidate } from 'sveltekit-superforms';
 import { zod } from 'sveltekit-superforms/adapters';
 import { z } from 'zod';
@@ -23,6 +24,10 @@ export const actions = {
 		}
 
 		const pdf = form.data.pdf;
+
+		const uuid = randomUUID();
+
+		await db.save(`pdfs/${uuid}.pdf`, pdf);
 
 		return message(form, 'You have uploaded a valid file!');
 	},
