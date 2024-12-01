@@ -1,2 +1,22 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href='https://svelte.dev/docs/kit'>svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang='ts'>
+	import { superForm } from 'sveltekit-superforms';
+
+	const { data } = $props();
+
+	const { enhance, errors, message } = superForm(data.form, {
+	});
+</script>
+
+<form enctype='multipart/form-data' method='POST' use:enhance>
+	<input
+		name='pdf'
+		accept='application/pdf'
+		type='file'
+	/>
+	{#if $errors.pdf}<span>{$errors.pdf}</span>{/if}
+	<button type='submit'>
+		Submit
+	</button>
+</form>
+
+<p>{$message}</p>
