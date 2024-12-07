@@ -67,8 +67,8 @@ importers:
         specifier: ^4.1.1
         version: 4.1.1(picomatch@4.0.2)(svelte@5.2.12)(typescript@5.7.2)
       svelte-exmarkdown:
-        specifier: ^4.0.1
-        version: 4.0.1(svelte@5.2.12)
+        specifier: ^4.0.2
+        version: 4.0.2(svelte@5.2.12)
       sveltekit-superforms:
         specifier: ^2.20.1
         version: 2.20.1(@sveltejs/kit@2.9.0(@sveltejs/vite-plugin-svelte@4.0.2(svelte@5.2.12)(vite@5.4.11(@types/node@22.10.1)))(svelte@5.2.12)(vite@5.4.11(@types/node@22.10.1)))(@types/json-schema@7.0.15)(svelte@5.2.12)(typescript@5.7.2)
@@ -3076,8 +3076,8 @@ packages:
       svelte:
         optional: true
 
-  svelte-exmarkdown@4.0.1:
-    resolution: {integrity: sha512-Rbyp1qyYtGbseEwJ09cmdCeUYDwfXKv7MLTDeacb+/OCPYaTBdMy/3kvn8wF8w7v4JggyOboxhvJxoXEkmDxMQ==}
+  svelte-exmarkdown@4.0.2:
+    resolution: {integrity: sha512-+IPt9+JZNRl4O62jcbXHR0w2Yd0P2cDd17bXmUaRdPUrID+gRfhrtnihKvw8uKrNw4EpCMX2J39ACmjyfbNcIg==}
     peerDependencies:
       svelte: ^5.1.3
 
@@ -6756,7 +6756,7 @@ snapshots:
     optionalDependencies:
       svelte: 5.2.12
 
-  svelte-exmarkdown@4.0.1(svelte@5.2.12):
+  svelte-exmarkdown@4.0.2(svelte@5.2.12):
     dependencies:
       remark-gfm: 4.0.0
       remark-parse: 11.0.0
