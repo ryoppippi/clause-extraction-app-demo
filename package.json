@@ -21,7 +21,7 @@
 		"@tailwindcss/typography": "^0.5.15"
 	},
 	"devDependencies": {
-		"@ai-sdk/google": "^1.0.7",
+		"@ai-sdk/google": "^1.0.8",
 		"@antfu/ni": "^0.23.1",
 		"@ryoppippi/eslint-config": "npm:@jsr/ryoppippi__eslint-config@^0.0.25",
 		"@sveltejs/adapter-auto": "^3.3.1",
