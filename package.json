@@ -46,7 +46,7 @@
 		"uint8array-extras": "^1.4.0",
 		"vite": "^5.4.11",
 		"vitest": "^2.1.8",
-		"zod": "^3.24.0"
+		"zod": "^3.24.1"
 	},
 	"lint-staged": {
 		"*.{js,jsx,ts,tsx,json,css,html,yaml,yml,md,svelte}": [
