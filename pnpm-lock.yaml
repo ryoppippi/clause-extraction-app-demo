@@ -19,8 +19,8 @@ importers:
         version: 0.5.15(tailwindcss@3.4.16)
     devDependencies:
       '@ai-sdk/google':
-        specifier: ^1.0.9
-        version: 1.0.9(zod@3.24.1)
+        specifier: ^1.0.10
+        version: 1.0.10(zod@3.24.1)
       '@antfu/ni':
         specifier: ^0.23.1
         version: 0.23.1
@@ -99,8 +99,8 @@ importers:
 
 packages:
 
-  '@ai-sdk/google@1.0.9':
-    resolution: {integrity: sha512-fIwKAhMiYCrWDQG3SMUkld3RPKq1yr1yrjFAtjf8Vzp0nKq+DdVtfmnUFFSOawn+rzJLGfhPc42H8ShFX89djQ==}
+  '@ai-sdk/google@1.0.10':
+    resolution: {integrity: sha512-8fvwy1luTLHJmuldDp7NZM+1jo20qMhqgzmONkb2ACNwRCnHtpcLEP2j/tJ7FIFLuvl5wHQP83smKHvdyUD9qA==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.0.0
@@ -3639,7 +3639,7 @@ packages:
 
 snapshots:
 
-  '@ai-sdk/google@1.0.9(zod@3.24.1)':
+  '@ai-sdk/google@1.0.10(zod@3.24.1)':
     dependencies:
       '@ai-sdk/provider': 1.0.2
       '@ai-sdk/provider-utils': 2.0.4(zod@3.24.1)
