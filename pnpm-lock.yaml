@@ -70,8 +70,8 @@ importers:
         specifier: ^4.0.2
         version: 4.0.2(svelte@5.14.5)
       sveltekit-superforms:
-        specifier: ^2.22.0
-        version: 2.22.0(@sveltejs/kit@2.11.1(@sveltejs/vite-plugin-svelte@4.0.3(svelte@5.14.5)(vite@5.4.11(@types/node@22.10.2)))(svelte@5.14.5)(vite@5.4.11(@types/node@22.10.2)))(@types/json-schema@7.0.15)(svelte@5.14.5)(typescript@5.7.2)
+        specifier: ^2.22.1
+        version: 2.22.1(@sveltejs/kit@2.11.1(@sveltejs/vite-plugin-svelte@4.0.3(svelte@5.14.5)(vite@5.4.11(@types/node@22.10.2)))(svelte@5.14.5)(vite@5.4.11(@types/node@22.10.2)))(@types/json-schema@7.0.15)(svelte@5.14.5)(typescript@5.7.2)
       sync-dotenv:
         specifier: ^2.7.0
         version: 2.7.0
@@ -2190,9 +2190,6 @@ packages:
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
 
-  just-clone@6.2.0:
-    resolution: {integrity: sha512-1IynUYEc/HAwxhi3WDpIpxJbZpMCvvrrmZVqvj9EhpvbH8lls7HhdhiByjL7DkAaWlLIzpC0Xc/VPvy/UxLNjA==}
-
   keyv@4.5.4:
     resolution: {integrity: sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==}
 
@@ -3216,8 +3213,8 @@ packages:
     resolution: {integrity: sha512-Qk4LbKHo8K6RtdSuiwI7w66Q+Ypab0V8E7WSZHEKKym4em8n+a0rl3VyRBpGV+/MnNmoi7xlGEjS2omwe0RzhA==}
     engines: {node: '>=18'}
 
-  sveltekit-superforms@2.22.0:
-    resolution: {integrity: sha512-lRwhdKcrpJWdNso3fR1zDsfxtQowunWC9hojxDsweatpaljQsdJ4CDFUzgw1kjtrPHZAFRbC7q6FcIMV5k//VA==}
+  sveltekit-superforms@2.22.1:
+    resolution: {integrity: sha512-SSePlvvEAo0eChLw1V9R1XdwwbE/XAOWTfzQOM01bFNT2IQGH5gy0wQkBffPKbDLZ7HYoRVao7spblTPBwyylA==}
     peerDependencies:
       '@sveltejs/kit': 1.x || 2.x
       svelte: 3.x || 4.x || >=5.0.0-next.51
@@ -5743,8 +5740,6 @@ snapshots:
       chalk: 5.3.0
       diff-match-patch: 1.0.5
 
-  just-clone@6.2.0: {}
-
   keyv@4.5.4:
     dependencies:
       json-buffer: 3.0.1
@@ -6995,11 +6990,10 @@ snapshots:
       magic-string: 0.30.17
       zimmerframe: 1.1.2
 
-  sveltekit-superforms@2.22.0(@sveltejs/kit@2.11.1(@sveltejs/vite-plugin-svelte@4.0.3(svelte@5.14.5)(vite@5.4.11(@types/node@22.10.2)))(svelte@5.14.5)(vite@5.4.11(@types/node@22.10.2)))(@types/json-schema@7.0.15)(svelte@5.14.5)(typescript@5.7.2):
+  sveltekit-superforms@2.22.1(@sveltejs/kit@2.11.1(@sveltejs/vite-plugin-svelte@4.0.3(svelte@5.14.5)(vite@5.4.11(@types/node@22.10.2)))(svelte@5.14.5)(vite@5.4.11(@types/node@22.10.2)))(@types/json-schema@7.0.15)(svelte@5.14.5)(typescript@5.7.2):
     dependencies:
       '@sveltejs/kit': 2.11.1(@sveltejs/vite-plugin-svelte@4.0.3(svelte@5.14.5)(vite@5.4.11(@types/node@22.10.2)))(svelte@5.14.5)(vite@5.4.11(@types/node@22.10.2))
       devalue: 5.1.1
-      just-clone: 6.2.0
       memoize-weak: 1.0.2
       svelte: 5.14.5
       ts-deepmerge: 7.0.2
