@@ -37,8 +37,8 @@ importers:
         specifier: ^4.0.3
         version: 4.0.3(svelte@5.14.5)(vite@5.4.11(@types/node@22.10.2))
       ai:
-        specifier: ^4.0.18
-        version: 4.0.18(react@18.3.1)(zod@3.24.1)
+        specifier: ^4.0.20
+        version: 4.0.21(react@18.3.1)(zod@3.24.1)
       autoprefixer:
         specifier: ^10.4.20
         version: 10.4.20(postcss@8.4.49)
@@ -1034,8 +1034,8 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
-  ai@4.0.18:
-    resolution: {integrity: sha512-BTWzalLNE1LQphEka5xzJXDs5v4xXy1Uzr7dAVk+C/CnO3WNpuMBgrCymwUv0VrWaWc8xMQuh+OqsT7P7JyekQ==}
+  ai@4.0.21:
+    resolution: {integrity: sha512-Tj4f9cwGBFxeKryT2/hN4L8t/2UbPuzumJWecT/kgu0/8/4tCBRMSM5TX9Xio5259E6Bshwc+OJvyYB0Ibgtpg==}
     engines: {node: '>=18'}
     peerDependencies:
       react: ^18 || ^19 || ^19.0.0-rc
@@ -4481,7 +4481,7 @@ snapshots:
 
   acorn@8.14.0: {}
 
-  ai@4.0.18(react@18.3.1)(zod@3.24.1):
+  ai@4.0.21(react@18.3.1)(zod@3.24.1):
     dependencies:
       '@ai-sdk/provider': 1.0.2
       '@ai-sdk/provider-utils': 2.0.4(zod@3.24.1)
