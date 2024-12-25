@@ -22,7 +22,7 @@
 	},
 	"devDependencies": {
 		"@ai-sdk/google": "^1.0.12",
-		"@antfu/ni": "^0.23.1",
+		"@antfu/ni": "^0.23.2",
 		"@ryoppippi/eslint-config": "npm:@jsr/ryoppippi__eslint-config@^0.0.25",
 		"@sveltejs/adapter-auto": "^3.3.1",
 		"@sveltejs/kit": "^2.13.0",
