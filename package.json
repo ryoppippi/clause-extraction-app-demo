@@ -25,7 +25,7 @@
 		"@antfu/ni": "^0.23.2",
 		"@ryoppippi/eslint-config": "npm:@jsr/ryoppippi__eslint-config@^0.0.25",
 		"@sveltejs/adapter-auto": "^3.3.1",
-		"@sveltejs/kit": "^2.13.0",
+		"@sveltejs/kit": "^2.14.0",
 		"@sveltejs/vite-plugin-svelte": "^4.0.4",
 		"ai": "^4.0.21",
 		"autoprefixer": "^10.4.20",
